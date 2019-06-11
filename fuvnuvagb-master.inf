@@ -1,0 +1,19 @@
+
+
+
+Section 1: Blackbody Curve
+
+06/10/19 - Created plot of FUV/NUV ratios for tempertures ranging from 5000-15000 K in increments of 500 K. Used effective wavelegths avaible on https://galex.stsci.edu/GR6/?page=faq
+
+  Values: FUV = 1.516e-5 cm
+          NUV = 2.267e-5 cm
+
+
+Values found for FUV/NUV ratios:
+
+
+  [0.01387537 0.02457884 0.03958108 0.059234   0.08368152 0.11289144
+ 0.14669386 0.18481869 0.22692837 0.2726448  0.32157027 0.90715014]
+
+
+
