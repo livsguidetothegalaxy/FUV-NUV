@@ -5,23 +5,23 @@ import matplotlib.pyplot as plt
 
 #planck constant
 
-h = 6.62e-34 #Js
+h = 6.62e-34 #kg*m**2/s
 
 #speed of light
 
-c = 3.0e+10 #cm/s
+c = 3.0e+08 #m/s
 
 #Boltzmann constant
 
-k = 1.38e-23 #J/K
+k = 1.38e-23 #kg*m**2/K*s**2
 
 #FUV  effective wavelength
 
-lfuv = 1.516e-5 #cm
+lfuv = 1.516e-7 #m
 
 #NUV effective  wavelength
 
-lnuv = 2.267e-5 #cm
+lnuv = 2.267e-7 #m
 
 #temperature range
 
@@ -48,6 +48,8 @@ blackbodyn = a2/((lnuv**5) * (np.exp(b2) -1.0))
 ratio = blackbodyf/blackbodyn
 
 print(ratio)
+print(blackbodyf)
+print(blackbodyn)
 
 plt.plot(t, ratio)
 plt.ylabel('FUV/NUV')
