@@ -16,4 +16,10 @@ Values found for FUV/NUV ratios:
  0.14669386 0.18481869 0.22692837 0.2726448  0.32157027 0.90715014]
 
 
+Black body curve updates to correct format, correcting to make code more flexible to user input. 
+
+
+Section 2: Cloudy and Fortran use in python
+
+
 

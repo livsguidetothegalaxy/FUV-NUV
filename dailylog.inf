@@ -3,4 +3,13 @@
 
 6/10/19 - Created blackbody plot. Work on finding python codes to interpolate. 
 
-6/11/19 - https://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html#id1 source to interpolate
+6/11/19 - https://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html#id1 source to interpolate. Looked into cloudy and using fortran code in python. How will this work? will it read in the output of the fortran code into python, but then need to be intropolated? A lot of tech issues today as well.
+
+
+for tomorrow:
+
+- figure out how the fortran out put can be used
+- learn how to use int. in python
+
+
+
